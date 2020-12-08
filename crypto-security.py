@@ -52,6 +52,12 @@ def bit256t():
         a = a+1
 
 
+print("enter 1 to select 8 bit encoding")
+print("enter 2 to select 16 bit encoding")
+print("enter 3 to select 32 bit encoding")
+print("enter 4 to select 64 bit encoding")
+print("enter 5 to select 128 bit encoding")
+print("enter 6 to select 256 bit encoding")
 
 value = int(input("Enter the encoding you want to crack: "))
 
