@@ -82,6 +82,8 @@ elif value == 6:
     bit256t()
     timetaken = (tt.timeit(bit16t,number=1))
     print("the time taken to crack a 256bit encoding is {:1.2f} seconds".format(timetaken))
+else:
+    print("Enter a valid number between 1 - 6")
 
 
 
